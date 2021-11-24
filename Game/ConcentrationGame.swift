@@ -26,6 +26,7 @@ class ConcentrationGame {
             return foundIndex
         }
         set {
+            
             for index in cards.indices {
                 cards[index].isFaceUp = (index == newValue)
             }
